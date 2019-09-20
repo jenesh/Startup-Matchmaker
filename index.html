@@ -3,30 +3,43 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Startup Matchmaker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="root">
-        <header>
-            <h1>Startup Matchmaker</h1>
-            <nav>
-                <a href="#">DEVELOPERS</a>
-                <a href="#">DESIGNERS</a>
-                <a href="#">How it Works</a>
-                <a href="#">Our Team</a>
-                <a href="#">Blog</a>
-            </nav>
+    <div id="header-container" class="fluid-container">
+        <header class="container">
+            <h1 class="text-center col-12">Startup Matchmaker</h1>
+            <ul class="nav justify-content-around bg-dark rounded">
+                <li class="nav-item border-right border-primary rounded"><a href="#"
+                        class="nav-link rounded">DEVELOPERS</a></li>
+                <li class="nav-item border-right border-primary rounded"><a href="#"
+                        class="nav-link rounded">DESIGNERS</a></li>
+                <li class="nav-item border-right border-primary rounded"><a href="#" class="nav-link rounded">How it
+                        Works</a>
+                </li>
+                <li class="nav-item border-right border-primary rounded"><a href="#" class="nav-link rounded">Our
+                        Team</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            </ul>
         </header>
-        <section>
-            <i>Because two brains <s>taste</s> <u>better</u> than one.</i>
-        </section>
+    </div>
+    <div>
+        <!-- <section class="row"> -->
+        <i class="row justify-content-center col-12">Because two brains <s>taste</s> <u>better</u> than one.</i>
+        <!-- </section> -->
+    </div>
+    <div>
         <main>
             <div id="call-to-action">
                 <h2>Meet your Match!</h2>
-                <p>Have a great idea for a product, but need help making it a reality?
+                <p>
+                    Have a great idea for a product, but need help making it a reality?
                     We're here to help. Startup Matchmaker is the best place for
                     designers and developers to find each other.
                 </p>
@@ -35,22 +48,25 @@
             <div id="user-options">
                 <div class="user-card">
                     <h3>Create a Profile</h3>
-                    <p>Are you a Designer? Developer? Put Yourself out there
-                        so that others can find you!
+                    <p>
+                        Are you a Designer? Developer? Put Yourself out there so that
+                        others can find you!
                     </p>
                     <button class="btn-card">SIGN UP NOW</button>
                 </div>
                 <div class="user-card">
                     <h3>Find a Developer</h3>
-                    <p>Looking for a fantastic developer to work with on the
-                        next big thing? Look no further.
+                    <p>
+                        Looking for a fantastic developer to work with on the next big
+                        thing? Look no further.
                     </p>
                     <button class="btn-card">START YOUR SEARCH</button>
                 </div>
                 <div class="user-card">
                     <h3>Find a Designer</h3>
-                    <p>Need someone who can make a product intuitive and
-                        appealing? Get ready.
+                    <p>
+                        Need someone who can make a product intuitive and appealing? Get
+                        ready.
                     </p>
                     <button class="btn-card">START YOUR SEARCH</button>
                 </div>
@@ -61,6 +77,16 @@
             <p>Made in New York City</p>
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
