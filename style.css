@@ -1,4 +1,63 @@
 #header-container {
     background-color: black;
+    /* background-color: gray; */
+    height: 150px;
+    padding: 10px;
+}
+
+header > h1 {
+    font-size: 3rem;
+}
+
+header > ul {
+    position: relative;
+    bottom: -20px;
+}
+
+li {
+    border-radius: 5px;
+    background-color: lightblue;
+    font-weight: 900;
+}
+
+li:hover, li>a:hover {
+    background-color: rgb(64, 186, 3);
+    color: black;
+    border-radius: 5px;
+}
+
+#header-banner {
+    background-color: rgb(214, 213, 213);
+}
+
+#main-img {
+    height: 70vh;
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    background-size: fixed;
+    background-repeat: no-repeat;
+}
+
+#call-to-action {
+    width: 21rem;
+    position: relative;
+    top: 20%;
+}
+
+#user-options .card {
+    width: 20rem;
+}
+
+#user-options {
+    padding: 20px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
     color: white;
+    height: 100px;
+    padding: 30px;
+    font-size: 1.2rem;
 }
