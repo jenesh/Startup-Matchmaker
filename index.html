@@ -14,61 +14,70 @@
 <body>
     <div id="header-container" class="fluid-container">
         <header class="container">
-            <h1 class="text-center col-12">Startup Matchmaker</h1>
-            <ul class="nav justify-content-around bg-dark rounded">
-                <li class="nav-item border-right border-primary rounded"><a href="#"
-                        class="nav-link rounded">DEVELOPERS</a></li>
-                <li class="nav-item border-right border-primary rounded"><a href="#"
-                        class="nav-link rounded">DESIGNERS</a></li>
-                <li class="nav-item border-right border-primary rounded"><a href="#" class="nav-link rounded">How it
+            <h1 class="text-center col-12 text-warning">Startup Matchmaker</h1>
+            <ul class="nav justify-content-between">
+                <li class="nav-item bg-success">
+                    <a href="#" class="nav-link text-white">DEVELOPERS</a></li>
+                <li class="nav-item bg-success">
+                    <a href="#" class="nav-link text-white">DESIGNERS</a></li>
+                <li class="nav-item bg-success">
+                    <a href="#" class="nav-link text-white">How it
                         Works</a>
                 </li>
-                <li class="nav-item border-right border-primary rounded"><a href="#" class="nav-link rounded">Our
+                <li class="nav-item bg-success">
+                    <a href="#" class="nav-link text-white">Our
                         Team</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="nav-item bg-success">
+                    <a href="#" class="nav-link text-white">Blog</a></li>
             </ul>
         </header>
     </div>
-    <div>
-        <!-- <section class="row"> -->
-        <i class="row justify-content-center col-12">Because two brains <s>taste</s> <u>better</u> than one.</i>
-        <!-- </section> -->
+    <div class="fluid-container p-2" id="header-banner">
+        <div>
+            <!-- <section class="row"> -->
+            <i class="row justify-content-center col-12">Two brains are better than one!</i>
+            <!-- </section> -->
+        </div>
     </div>
     <div>
         <main>
-            <div id="call-to-action">
-                <h2>Meet your Match!</h2>
-                <p>
-                    Have a great idea for a product, but need help making it a reality?
-                    We're here to help. Startup Matchmaker is the best place for
-                    designers and developers to find each other.
-                </p>
-                <button id="create-profile">CREATE A PROFILE</button>
+            <div id="main-img" class="">
+                <div id="call-to-action" class="card mx-auto bg-dark text-white p-3">
+                    <!-- <img src="" alt="" class="card-img-top" alt=""> -->
+                    <h1 class="card-title text-center ">Meet your Match!</h1>
+                    <p class="card-text text-center p-3">
+                        Have a great idea for a product, but need help making it a reality?
+                        We're here to help. Startup Matchmaker is the best place for
+                        designers and developers to find each other.
+                    </p>
+                    <button id="create-profile" class="btn btn-success">CREATE A PROFILE</button>
+                </div>
             </div>
-            <div id="user-options">
-                <div class="user-card">
-                    <h3>Create a Profile</h3>
-                    <p>
+
+            <div id="user-options" class="container d-flex justify-content-between">
+                <div class="card col-4 m-1 pb-4">
+                    <h2 class="card-title text-center p-4">Create a Profile</h2>
+                    <p class="card-text p-4 text-center">
                         Are you a Designer? Developer? Put Yourself out there so that
                         others can find you!
                     </p>
-                    <button class="btn-card">SIGN UP NOW</button>
+                    <button class="btn btn-success ">SIGN UP NOW</button>
                 </div>
-                <div class="user-card">
-                    <h3>Find a Developer</h3>
-                    <p>
+                <div class="card col-4 m-1 pb-4">
+                    <h2 class="card-title text-center p-4">Find a Developer</h2>
+                    <p class="card-text p-4 text-center">
                         Looking for a fantastic developer to work with on the next big
                         thing? Look no further.
                     </p>
-                    <button class="btn-card">START YOUR SEARCH</button>
+                    <button class="btn btn-success ">START YOUR SEARCH</button>
                 </div>
-                <div class="user-card">
-                    <h3>Find a Designer</h3>
-                    <p>
+                <div class="card col-4 m-1 pb-4">
+                    <h2 class="card-title text-center p-4">Find a Designer</h2>
+                    <p class="card-text p-4 text-center ">
                         Need someone who can make a product intuitive and appealing? Get
                         ready.
                     </p>
-                    <button class="btn-card">START YOUR SEARCH</button>
+                    <button class="btn btn-success">START YOUR SEARCH</button>
                 </div>
             </div>
         </main>
